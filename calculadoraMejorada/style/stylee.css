@@ -1,0 +1,48 @@
+    h1{
+        text-align:center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(199, 73, 73);
+        font-weight: 1000000;
+        margin-left: 20px;
+        font-size: 45px;
+        text-shadow: 2px 2px rgba(115, 134, 4, 0.856);
+        
+    }
+    
+    body {
+        background-image: url('https://i.pinimg.com/originals/f0/37/82/f03782852a438d690b41fafc280c10c5.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 20px,20px,20px,20px;
+        padding: 20px,20px,20px,20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Permanent Marker';
+        
+    
+    }
+    
+    .contenedor {
+        padding: 100px;
+        color: #a51515;
+        font-size: 25px;
+        text-shadow: 2px 2px rgb(36, 44, 90);
+        
+    }
+    #formulario {
+        margin-top: -7%;
+        margin-bottom:-6% ;
+        margin-right : auto;
+        margin-left:auto;
+        background-color: #68510e; 
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer; 
+    }
