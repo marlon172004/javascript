@@ -1,0 +1,111 @@
+body {
+    background-image: url('https://i.makeagif.com/media/5-19-2023/coRnxX.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif, 'Permanent Marker', Arial, sans-serif;
+    text-align: center;
+    background-color: #1a0596;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #333;
+    padding: 10px 20px;
+    border: 2px solid #ff4500;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#order-form {
+    background-color: #a84818;
+    border: 1px solid #dad4d4;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label, select, input {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#total-price {
+    font-weight: bold;
+}
+
+select {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+input {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #333;
+    padding: 10px 20px;
+    border: 2px solid #ff4500;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#order-summary {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%; 
+    padding: 10px;
+    background-color: #a84818;
+    border: 1px solid #010000e7;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0px 0px 10px
+}
+p{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%; 
+    padding: 10px;
+    background-color: #a84818;
+    border: 1px solid #010000e7;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0px 0px 10px
+    
+}
