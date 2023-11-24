@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlazamos el archivo de estilos CSS y el archivo de scripts JavaScript -->
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/biblioteca.js" defer></script>
+
+    <!-- Establecemos el titulo de la pagina -->
+    <title>Libreria St y Ma</title>
+</head>
+
+<body>
+    <!-- Contenedor principal de la pagina -->
+    <div id="contenedor">
+
+        <!-- Titulo principal de la libreria virtual -->
+        <h1>Libreria virtual</h1>
+
+        <!-- Contenedor para mostrar los precios de las categorias -->
+        <div id="precios-contenedor">
+            <!-- Precio de la categoria Terror -->
+            <p> | Terror: $15,000   |.</p>
+            <!-- Precio de la categoria Comedia -->
+            <p>.| Comedia: $12,500  |.</p>
+            <!-- Precio de la categoria Ficción -->
+            <p>.| Ficcion: $18,000  |.</p>
+            <!-- Precio de la categoria Anime -->
+            <p>.| Anime: $20,000    |.</p>
+            <!-- Precio de la categoria Misterio -->
+            <p>.| Misterio: $16,500 | </p>
+        </div>
+
+        <!-- Imagen de libros -->
+        <img src="img/istockphoto-487904111-612x612-removebg-preview.png" alt="Imagen de libros">
+
+        <!-- Formulario para realizar un pedido -->
+        <form id="formularioPedido">
+
+            <!-- Etiqueta para seleccionar la categoria -->
+            <label for="seleccionarCategoria">Seleccione una categoria:</label>
+
+            <!-- Lista desplegable con opciones de categoria -->
+            <select id="seleccionarCategoria">
+                <option value="terror">Terror</option>
+                <option value="comedia">Comedia</option>
+                <option value="ficcion">Ficcion</option>
+                <option value="anime">Anime</option>
+                <option value="misterio">Misterio</option>
+            </select>
+
+            <!-- Contenedor para la cantidad de libros -->
+            <div id="cantidadContenedor">
+                <!-- Etiqueta para ingresar la cantidad de libros -->
+                <label for="cantidadLibros">Cantidad de libros:</label>
+
+                <!-- Campo de entrada para la cantidad de libros -->
+                <input type="number" id="cantidadLibros" min="1" value="1">
+            </div>
+
+            <!-- Botón para agregar el pedido -->
+            <button type="button" id="agregarPedido">Hacer Pedido</button>
+        </form>
+
+        <!-- Línea horizontal para separar secciones -->
+        <hr>
+
+        <!-- Contenedor para mostrar el resumen del pedido -->
+        <div id="resumenPedido">
+            <!-- Encabezado del resumen -->
+            <h2>Resumen del Pedido</h2>
+
+            <!-- Lista no ordenada para los elementos del pedido -->
+            <ul id="listaPedido"></ul>
+
+            <!-- Precio total del pedido -->
+            <p>Total a Pagar: <span id="precioTotal"></span></p>
+
+            <!-- Botón para reiniciar un nuevo pedido -->
+            <button type="button" id="reiniciarPedido">Hacer Otro Pedido?</button>
+        </div>
+    </div>
+</body>
+</html>
