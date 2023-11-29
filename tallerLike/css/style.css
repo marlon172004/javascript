@@ -1,0 +1,15 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/ae/3d/62/ae3d6215a590f15a8ef3928789829ec9.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px,10px,10px,10px;
+    padding: 20px,20px,20px,20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Permanent Marker';
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1a0596;
+    margin: 0;
+}
+
