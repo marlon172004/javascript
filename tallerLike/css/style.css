@@ -1,15 +1,25 @@
+/* Estilos aplicados al cuerpo body del documento */
 body {
+    /* Fondo con una imagen en formato gif */
     background-image: url('https://i.pinimg.com/originals/ae/3d/62/ae3d6215a590f15a8ef3928789829ec9.gif');
+    /* No se repite la imagen en el fondo */
     background-repeat: no-repeat;
+    /* La imagen de fondo se ajusta para cubrir todo el área */
     background-size: cover;
+    /* La imagen de fondo permanece fija mientras se desplaza por la página */
     background-attachment: fixed;
-    margin: 10px,10px,10px,10px;
-    padding: 20px,20px,20px,20px;
+    /* Márgenes: arriba, derecha, abajo, izquierda (en este caso, todos son 10px) */
+    margin: 10px 10px 10px 10px;
+    /* Relleno: arriba, derecha, abajo, izquierda (en este caso, todos son 20px) */
+    padding: 20px 20px 20px 20px;
+    /* Definición de las fuentes a utilizar, en caso de que la primera no esté disponible, se utiliza la siguiente */
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Permanent Marker';
     font-family: Arial, sans-serif;
+    /* El texto se alinea al centro */
     text-align: center;
+    /* Color de fondo del cuerpo */
     background-color: #1a0596;
+    /* Elimina el margen predeterminado del cuerpo */
     margin: 0;
 }
-
