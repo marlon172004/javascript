@@ -1,0 +1,49 @@
+/* Estilos aplicados al cuerpo (body) del documento */
+body {
+    /* Utiliza el modelo de caja flexible (Flexbox) con direccion de columna */
+    display: flex;
+    flex-direction: column;
+    /* Establece la altura del cuerpo como el 100% del viewport height  */
+    height: 100vh;
+    /* Márgenes externos alrededor del cuerpo */
+    margin: 50px;
+    /* Color de fondo y imagen de fondo */
+    background-color: rgb(116, 128, 124);
+    background-image: url('https://i.pinimg.com/originals/d1/b9/3f/d1b93f2a4ef6ca3e943aa349fdd014b5.gif');
+    /* Tamaño de fuente y negrita para el cuerpo */
+    font-size: 25px;
+    font-weight: bold; 
+}
+/* Estilos aplicados a los elementos de parrafo (p) */
+p {
+    /* Color del texto dentro de los parrafos */
+    color: rgb(245, 245, 245);
+}
+/* Estilos aplicados a los elementos de division (div) */
+div {
+    /* Margen inferior para separar las divisiones */
+    margin-bottom: 10px;
+    /* Tamaño de fuente y negrita para los elementos de divisi0n */
+    font-size: 25px;
+    font-weight: bold; 
+}
+/* Estilos aplicados al elemento con el id 'total' */
+#total {
+    /* Tamaño de fuente y negrita para el elemento con el id 'total' */
+    font-size: 25px;
+    font-weight: bold; 
+}
+/* Estilos aplicados a los botones */
+button {
+    /* Margen superior para separar los botones */
+    margin-top: 10px;
+    /* Tamaño de fuente y negrita para los botones */
+    font-size: 25px;
+    font-weight: bold; 
+}
+/* Estilos aplicados a los campos de entrada de tipo numero */
+input[type="number"] {
+    /* Tamaño de fuente y relleno para los campos de entrada de tipo numero */
+    font-size: 20px; 
+    padding: 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <!-- Enlace al archivo JavaScript Carrito.js -->
+    <script src="Js/Carrito.js"></script>
+    <!-- Enlace al archivo de estilos Style.css -->
+    <link rel="stylesheet" href="Css/Style.css">
+    <!-- Título de la página -->
+    <title>Libritos</title>
+</head>
+<body>
+
+    <!-- Contenido del cuerpo del documento -->
+    <!-- Sección para el primer libro -->
+    <div>
+        <p>Libro 1 - Precio: $<span id="precioLibro1">20.000</span></p>
+        <input type="number" id="cantidadLibro1" value="0" min="0">
+    </div>
+    <!-- Sección para el segundo libro -->
+    <div>
+        <p>Libro 2 - Precio: $<span id="precioLibro2">15.000</span></p>
+        <input type="number" id="cantidadLibro2" value="0" min="0">
+    </div>
+    <!-- Sección para el tercer libro -->
+    <div>
+        <p>Libro 3 - Precio: $<span id="precioLibro3">10.000</span></p>
+        <input type="number" id="cantidadLibro3" value="0" min="0">
+    </div>
+    <!-- Sección para el botón de calcular total -->
+    <div>
+        <button onclick="calcularTotal()">Calcular Total</button>
+        <p>Total: $<span id="total"></span></p>
+    </div>
+</body>
+</html>
+
