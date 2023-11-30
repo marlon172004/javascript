@@ -1,0 +1,17 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/fe/b6/87/feb6879f86e6b4f3d912fcabbff5244f.gif');
+}
+
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success {
+    background: green;
+}
+
+.error {
+    background: red;
+}
